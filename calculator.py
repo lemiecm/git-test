@@ -1,7 +1,6 @@
 import re 
 def calculator(input_number, separator = ""):
     
-
     if input_number =="":
         return 0
     
