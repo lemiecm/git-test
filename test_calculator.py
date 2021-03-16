@@ -55,16 +55,17 @@ class TestStringMethods(unittest.TestCase):
     
         #Then
         self.assertEqual(expected_result,result)
-    # def test_negative_num(self):
-    
-    #     #Given
-    #     input_number = "-11"
         
-    #     #When
-    #     result = calc.calculator(input_number)
+    def test_negative_num(self):
     
-    #     #Then
-    #     self.assertRaises(result)
+        #Given
+        input_number = "-11"
+        
+        #When
+        result = calc.calculator(input_number)
+    
+        #Then
+        self.assertRaises(result)
         
 
     def test_very_big_num(self):
